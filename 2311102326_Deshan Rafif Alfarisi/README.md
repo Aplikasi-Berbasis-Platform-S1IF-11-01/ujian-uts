@@ -11,7 +11,7 @@
   <p>
     <strong>Deshan Rafif Alfarisi</strong><br>
     <strong>2311102326</strong><br>
-    <strong>S1 IF-11-07</strong>
+    <strong>S1 IF-11-01</strong>
   </p>
   <br />
   <h3>Dosen Pengampu :</h3>
