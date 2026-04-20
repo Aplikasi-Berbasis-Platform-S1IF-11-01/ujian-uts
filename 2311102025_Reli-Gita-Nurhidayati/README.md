@@ -206,7 +206,7 @@ class SkillController extends Controller
 
 Halaman utama yang dapat diakses publik. Seluruh data profil, nama, NIM, dan deskripsi ditarik dari backend melalui AJAX fetch API.
 
-![Tampilan Awal](SS_TAMPILAN AWAL CV_UTS_PRAKTIKUM ABP RELI.png)
+![Tampilan Awal](SS_TAMPILAN%20AWAL%20CV_UTS_PRAKTIKUM%20ABP_RELI.png)
 
 ---
 
@@ -214,7 +214,7 @@ Halaman utama yang dapat diakses publik. Seluruh data profil, nama, NIM, dan des
 
 Menampilkan informasi singkat tentang pemilik portofolio beserta empat kartu informasi (universitas, program studi, lokasi, dan fokus bidang) yang semuanya diisi secara dinamis dari API.
 
-![Section About](SS ABOUT_PRAKTIKUM_ABP_RELI.png)
+![Section About](SS%20ABOUT_PRAKTIKUM_ABP_RELI.png)
 
 ---
 
@@ -222,7 +222,7 @@ Menampilkan informasi singkat tentang pemilik portofolio beserta empat kartu inf
 
 Menampilkan kemampuan teknis dalam tiga kategori: Data Analyst, UI/UX Design, dan Tools. Progress bar terisi secara animasi menggunakan Intersection Observer API.
 
-![Section Skills](Screenshot (425).png)
+![Section Skills](Screenshot%20(425).png)
 
 ---
 
@@ -230,7 +230,7 @@ Menampilkan kemampuan teknis dalam tiga kategori: Data Analyst, UI/UX Design, da
 
 Menampilkan kartu-kartu proyek yang diambil dari database melalui endpoint `/api/projects`.
 
-![Section Projects](SS PROJEK_UTS_PRAKTIKUM ABP RELI.png)
+![Section Projects](SS%20PROJEK_UTS_PRAKTIKUM%20ABP_RELI.png)
 
 ---
 
@@ -238,7 +238,7 @@ Menampilkan kartu-kartu proyek yang diambil dari database melalui endpoint `/api
 
 Menampilkan riwayat pendidikan dalam format timeline vertikal dengan garis gradien dari hijau ke oranye.
 
-![Section Education](SS EDUCATION_UTS_PRAKTIKUM ABP RELI.png)
+![Section Education](SS%20EDUCATION_UTS_PRAKTIKUM%20ABP_RELI.png)
 
 ---
 
@@ -246,7 +246,7 @@ Menampilkan riwayat pendidikan dalam format timeline vertikal dengan garis gradi
 
 Menampilkan pengalaman organisasi yang diambil dari endpoint `/api/organizations`.
 
-![Section Organisasi](SS ORGANISASI_UTS_PRAKTIKUM_ABP_RELI.png)
+![Section Organisasi](SS%20ORGANISASI_UTS_PRAKTIKUM%20ABP_RELI.png)
 
 ---
 
@@ -254,7 +254,7 @@ Menampilkan pengalaman organisasi yang diambil dari endpoint `/api/organizations
 
 Menampilkan informasi kontak (email, LinkedIn, GitHub, Instagram) yang semuanya bersumber dari data profil di database.
 
-![Section Contact](SS CONTACT_UTS_PRAKTIKUM ABP_RELI.png)
+![Section Contact](SS%20CONTACT_UTS_PRAKTIKUM%20ABP_RELI.png)
 
 ---
 
@@ -262,7 +262,7 @@ Menampilkan informasi kontak (email, LinkedIn, GitHub, Instagram) yang semuanya 
 
 Halaman autentikasi administrator. Hanya pengguna terdaftar yang dapat masuk dan mengakses dashboard pengelolaan konten.
 
-![Login Admin](SS LOGIN ADMIN_UTS PRAKTIKUM ABP_RELI.png)
+![Login Admin](SS%20LOGIN%20ADMIN_UTS%20PRAKTIKUM%20ABP_RELI.png)
 
 ---
 
@@ -270,7 +270,7 @@ Halaman autentikasi administrator. Hanya pengguna terdaftar yang dapat masuk dan
 
 Halaman utama setelah login berhasil. Menampilkan ringkasan statistik konten (total skills, projects, pendidikan, organisasi) beserta info profil aktif.
 
-![Dashboard Admin](SS DASHBOARD_UTS_PRAKTIKUM ABP_RELI.png)
+![Dashboard Admin](SS%20DASHBOARD_UTS_PRAKTIKUM%20ABP_RELI.png)
 
 ---
 
@@ -278,7 +278,7 @@ Halaman utama setelah login berhasil. Menampilkan ringkasan statistik konten (to
 
 Formulir lengkap untuk memperbarui seluruh data identitas diri termasuk nama, NIM, tagline, deskripsi, universitas, fokus, kontak sosial media, dan foto profil.
 
-![Edit Profile](SS PROFILE_UTS_PRAKTIKUM ABP_RELI.png)
+![Edit Profile](SS%20PROFILE_UTS_PRAKTIKUM%20ABP_RELI.png)
 
 ---
 
@@ -286,7 +286,7 @@ Formulir lengkap untuk memperbarui seluruh data identitas diri termasuk nama, NI
 
 Halaman manajemen data keahlian. Admin dapat menambahkan skill baru, memperbarui persentase, serta menghapus skill melalui operasi CRUD berbasis AJAX.
 
-![Kelola Skills](SS SKILLS_UTS_PRAKTIKUM_ABP_RELI.png)
+![Kelola Skills](SS%20SKILLS_UTS_PRAKTIKUM%20ABP_RELI.png)
 
 ---
 
@@ -294,7 +294,7 @@ Halaman manajemen data keahlian. Admin dapat menambahkan skill baru, memperbarui
 
 Halaman pengelolaan portofolio proyek. Admin dapat menambah, mengedit, dan menghapus proyek yang akan otomatis tampil di landing page.
 
-![Kelola Projects](SS PROJECTS_UTS_PRAKTIKUM_ABP_RELI.png)
+![Kelola Projects](SS%20PROJECTS_UTS_PRAKTIKUM_ABP_RELI.png)
 
 ---
 
@@ -302,7 +302,7 @@ Halaman pengelolaan portofolio proyek. Admin dapat menambah, mengedit, dan mengh
 
 Halaman manajemen riwayat pendidikan. Data yang ditambah atau dihapus akan langsung tercermin di timeline section Education pada landing page.
 
-![Kelola Education](SS EDUCATIONS_UTS_PRAKTIKUM_ABP_RELI.png)
+![Kelola Education](SS%20EDUCATIONS_UTS_PRAKTIKUM_ABP_RELI.png)
 
 ---
 
@@ -310,7 +310,7 @@ Halaman manajemen riwayat pendidikan. Data yang ditambah atau dihapus akan langs
 
 Halaman pengelolaan pengalaman organisasi. Admin dapat menambah atau menghapus entri organisasi yang akan ditampilkan di landing page.
 
-![Kelola Organisasi](SS ORGANIZATION_UTS_PRAKTIKUM_ABP_RELI.png)
+![Kelola Organisasi](SS%20ORGANIZATION_UTS_PRAKTIKUM_ABP_RELI.png)
 
 ---
 
