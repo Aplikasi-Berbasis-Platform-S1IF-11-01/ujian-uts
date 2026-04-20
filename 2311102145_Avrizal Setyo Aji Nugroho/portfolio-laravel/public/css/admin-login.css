@@ -1,0 +1,214 @@
+ *,
+ *::before,
+ *::after {
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+ }
+
+ :root {
+     --bg: #0a0a0f;
+     --card: #14141e;
+     --border: rgba(255, 255, 255, 0.07);
+     --text: #c8c8d8;
+     --heading: #f0f0ff;
+     --muted: #7070a0;
+     --accent: #5563ff;
+     --accent2: #a855f7;
+     --gradient: linear-gradient(135deg, #5563ff, #a855f7);
+     --error: #ff4560;
+ }
+
+ body {
+     background: var(--bg);
+     color: var(--text);
+     font-family: 'Space Grotesk', sans-serif;
+     min-height: 100vh;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     padding: 20px;
+     position: relative;
+     overflow: hidden;
+ }
+
+ /* BG blobs */
+ body::before,
+ body::after {
+     content: '';
+     position: fixed;
+     border-radius: 50%;
+     filter: blur(100px);
+     opacity: .15;
+     pointer-events: none;
+ }
+
+ body::before {
+     width: 500px;
+     height: 500px;
+     background: var(--accent);
+     top: -150px;
+     left: -150px;
+ }
+
+ body::after {
+     width: 400px;
+     height: 400px;
+     background: var(--accent2);
+     bottom: -100px;
+     right: -100px;
+ }
+
+ .login-card {
+     background: var(--card);
+     border: 1px solid var(--border);
+     border-radius: 24px;
+     padding: 48px 40px;
+     width: 100%;
+     max-width: 420px;
+     position: relative;
+     z-index: 1;
+     box-shadow: 0 32px 80px rgba(0, 0, 0, .5);
+ }
+
+ .logo {
+     text-align: center;
+     margin-bottom: 32px;
+ }
+
+ .logo-icon {
+     width: 56px;
+     height: 56px;
+     border-radius: 16px;
+     background: var(--gradient);
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin: 0 auto 16px;
+     font-size: 24px;
+     color: #fff;
+ }
+
+ .logo h1 {
+     font-family: 'Syne', sans-serif;
+     font-size: 22px;
+     color: var(--heading);
+ }
+
+ .logo p {
+     font-family: 'JetBrains Mono', monospace;
+     font-size: 12px;
+     color: var(--muted);
+     margin-top: 4px;
+ }
+
+ .form-group {
+     margin-bottom: 20px;
+ }
+
+ label {
+     display: block;
+     font-size: 13px;
+     font-weight: 500;
+     color: var(--muted);
+     margin-bottom: 8px;
+     letter-spacing: .5px;
+ }
+
+ .input-wrap {
+     position: relative;
+ }
+
+ .input-wrap i {
+     position: absolute;
+     left: 16px;
+     top: 50%;
+     transform: translateY(-50%);
+     color: var(--muted);
+     font-size: 14px;
+ }
+
+ input[type="email"],
+ input[type="password"] {
+     width: 100%;
+     background: rgba(255, 255, 255, .04);
+     border: 1px solid var(--border);
+     border-radius: 12px;
+     padding: 14px 16px 14px 44px;
+     color: var(--heading);
+     font-size: 15px;
+     font-family: 'Space Grotesk', sans-serif;
+     outline: none;
+     transition: .2s;
+ }
+
+ input:focus {
+     border-color: var(--accent);
+     background: rgba(85, 99, 255, .05);
+     box-shadow: 0 0 0 3px rgba(85, 99, 255, .15);
+ }
+
+ .checkbox-row {
+     display: flex;
+     align-items: center;
+     gap: 10px;
+     margin-bottom: 24px;
+ }
+
+ .checkbox-row input[type="checkbox"] {
+     accent-color: var(--accent);
+ }
+
+ .checkbox-row label {
+     margin: 0;
+     font-size: 14px;
+     color: var(--text);
+ }
+
+ .btn-login {
+     width: 100%;
+     background: var(--gradient);
+     color: #fff;
+     border: none;
+     border-radius: 12px;
+     padding: 16px;
+     font-size: 16px;
+     font-weight: 700;
+     font-family: 'Space Grotesk', sans-serif;
+     cursor: pointer;
+     transition: .2s;
+     box-shadow: 0 4px 24px rgba(85, 99, 255, .3);
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 10px;
+ }
+
+ .btn-login:hover {
+     transform: translateY(-2px);
+     box-shadow: 0 8px 32px rgba(85, 99, 255, .4);
+ }
+
+ .error-box {
+     background: rgba(255, 69, 96, .1);
+     border: 1px solid rgba(255, 69, 96, .3);
+     border-radius: 12px;
+     padding: 14px 16px;
+     color: var(--error);
+     font-size: 14px;
+     margin-bottom: 20px;
+     display: flex;
+     align-items: center;
+     gap: 10px;
+ }
+
+ .back-link {
+     text-align: center;
+     margin-top: 20px;
+     font-size: 13px;
+     color: var(--muted);
+ }
+
+ .back-link a {
+     color: var(--accent);
+ }
