@@ -305,6 +305,7 @@ Autentikasi menggunakan **session Laravel** tanpa tabel `users`:
 - [ ] Deploy ke VPS/shared hosting dengan domain sendiri
 
 Dokumentasi
+
 Landing Page
 ![Gambar1](Images/gambar1.png)
 
