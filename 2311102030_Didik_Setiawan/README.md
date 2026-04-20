@@ -75,7 +75,7 @@ Fitur autentikasi admin menggunakan Laravel Breeze (Blade + session). Halaman da
 
 ```bash
 git clone <repository-url>
-cd uts
+cd 2311102030_Didik_Setiawan
 ```
 
 ### 2. Install Dependency
@@ -149,7 +149,7 @@ Buka browser di:
 ## Struktur File Penting
 
 ```text
-uts/
+2311102030_Didik_Setiawan/
 ├── app/
 │   ├── Http/
 │   │   ├── Controllers/
