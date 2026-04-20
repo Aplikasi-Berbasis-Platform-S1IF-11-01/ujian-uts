@@ -295,15 +295,6 @@ Autentikasi menggunakan **session Laravel** tanpa tabel `users`:
 - Form dalam **modal dialog** agar tidak pindah halaman
 - Halaman Pengalaman: **layout timeline** dengan dot dan garis vertikal
 
-## 📝 Potensi Pengembangan
-
-- [ ] Fitur contact form dengan notifikasi email (Laravel Mail)
-- [ ] Multi-language (Indonesia / English)
-- [ ] Dark mode di halaman portfolio
-- [ ] Kategori proyek dengan filter
-- [ ] Analytics pengunjung sederhana
-- [ ] Deploy ke VPS/shared hosting dengan domain sendiri
-
 Dokumentasi
 
 Landing Page
