@@ -416,7 +416,7 @@ Halaman autentikasi administrator. Hanya pengguna yang terdaftar pada *database*
 
 Halaman utama administrator setelah berhasil *login*. Memuat tabel visual yang menampilkan data keahlian dan proyek terbaru untuk mempermudah pemantauan konten portofolio secara menyeluruh.
 
-![Halaman Dashboard Admin](admin.pngg)
+![Halaman Dashboard Admin](admin.png)
 
 ---
 
