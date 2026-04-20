@@ -1,18 +1,17 @@
 <div align="center">
   <br />
-  <img src="assets/logo.png" alt="Logo Universitas Telkom Purwokerto" width="280">
-  <br />
-  <br />
   <h1>LAPORAN UJIAN TENGAH SEMESTER <br>APLIKASI BERBASIS PLATFORM</h1>
   <br />
-  <h3>Laravel — Aplikasi CV Online & Portofolio Dinamis</h3>
+  <br />
+  <img src="assets/logo.png" alt="Logo Universitas Telkom Purwokerto" width="300">
+  <br />
   <br />
   <br />
   <h3>Disusun Oleh :</h3>
   <p>
     <strong>Deshan Rafif Alfarisi</strong><br>
     <strong>2311102326</strong><br>
-    <strong>S1 IF-11-01</strong>
+    <strong>S1 IF-11-07</strong>
   </p>
   <br />
   <h3>Dosen Pengampu :</h3>
@@ -655,7 +654,7 @@ Dashboard admin memiliki layout dua kolom dengan sidebar kiri tetap (fixed, leba
 
 Halaman publik adalah satu-halaman (*one-page*) dengan tema gelap (*dark theme*) menggunakan warna dasar `#0d0e15` (midnight dark blue). Navbar sticky di atas dengan Bootstrap Scrollspy untuk highlight menu aktif. Data ditampilkan secara dinamis dari variabel yang dikirim controller. *File: `resources/views/welcome.blade.php`*
 
-**Section Hero / Profil:**
+**Section Profil:**
 ```html
 <section id="hero" class="hero">
     <!-- Foto Profil dengan efek glow animasi -->
@@ -830,7 +829,7 @@ Bagian bawah dashboard admin menampilkan tiga kartu dalam layout tiga kolom: **E
 
 Halaman publik CV online dengan tema gelap (*dark theme*). Section hero menampilkan foto profil dengan efek glowing gradient yang beranimasi, nama lengkap, judul profesi bergradien, NIM, deskripsi singkat yang diambil dari database, serta empat ikon media sosial yang mengarah ke kontak asli.
 
-![Profile / Hero](assets/profile.png)
+![Profile / Hero](assets/profilee.png)
 
 ---
 
