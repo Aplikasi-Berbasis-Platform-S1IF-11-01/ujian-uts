@@ -74,7 +74,7 @@ Fitur autentikasi admin menggunakan Laravel Breeze (Blade + session). Halaman da
 ### 1. Clone Project
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/Aplikasi-Berbasis-Platform-S1IF-11-01/ujian-uts/blob/main/2311102030_Didik_Setiawan
 cd 2311102030_Didik_Setiawan
 ```
 
