@@ -513,37 +513,42 @@ About section menampilkan informasi diri lengkap meliputi Nama, NIM, Jurusan, Lo
 
 ![Informasi Profil](screenshots/Informasi_Profil.jpeg)
 
-### 4.3 Landing Page — Projects
+### 4.3 Landing Page — Skills
+Skills section menampilkan kartu skill yang dikelompokkan per kategori (Frontend, Backend, Database, Tools) dengan sistem tab interaktif. Setiap kartu memiliki icon Devicon berwarna, nama skill, persentase level, dan animated progress bar yang bergerak saat section di-scroll ke viewport menggunakan Intersection Observer API. Data diambil dari `/api/v1/skills`.
+
+![Skills Portofolio](screenshots/skills_portofolio.jpeg)
+
+### 4.4 Landing Page — Projects
 Projects section menampilkan grid kartu project dengan filter status (All / Completed / In Progress) yang bekerja tanpa request ulang ke server — filtering dilakukan di sisi client menggunakan JavaScript. Setiap kartu menampilkan thumbnail, tech stack badge, status badge, dan link ke demo serta GitHub. Data diambil dari `/api/v1/projects`.
 
 ![Projects Portofolio](screenshots/Project_portofolio.jpeg)
 
-### 4.4 Landing Page — Experiences
+### 4.5 Landing Page — Experiences
 Experience section menampilkan timeline perjalanan kerja dan pendidikan dengan dot indikator current/past. Terdapat tab filter Work/Education yang memfilter data di sisi client. Data diambil dari endpoint `/api/v1/experiences`.
 
 ![Experiences Portofolio](screenshots/Experinces_portofolio.jpeg)
 
-### 4.5 Landing Page — Contact
+### 4.6 Landing Page — Contact
 Contact section menampilkan link kontak yang diambil dinamis dari database melalui AJAX (email, GitHub, LinkedIn). Tampilan menggunakan desain dark editorial dengan tipografi besar dan button call-to-action.
 
 ![Contact Portofolio](screenshots/Contact_portofolio.jpeg)
 
-### 4.6 Admin Dashboard
+### 4.7 Admin Dashboard
 Halaman dashboard admin menampilkan 3 kartu statistik (Total Skills, Total Projects, Total Experiences), quick action buttons untuk navigasi cepat ke setiap halaman manajemen, dan tabel status 4 endpoint API beserta keterangannya.
 
 ![Dashboard Admin](screenshots/Dashboard_Admin.jpeg)
 
-### 4.7 Admin — Manage Skills
+### 4.8 Admin — Manage Skills
 Halaman manajemen skill menampilkan tabel data yang dikelompokkan per kategori dengan level bar visual. Terdapat modal tambah/edit yang dilengkapi range slider untuk mengatur level (0–100%), input icon class Devicon, dan input warna hex. Semua operasi CRUD (tambah, edit, hapus) dilakukan via AJAX tanpa reload halaman.
 
 ![Manage Skills](screenshots/Manage_skills.jpeg)
 
-### 4.8 Admin — Manage Projects
+### 4.9 Admin — Manage Projects
 Halaman manajemen project menampilkan tabel project dengan badge status berwarna. Modal tambah/edit dilengkapi field tech stack (dipisah koma), URL demo & GitHub, serta fitur upload thumbnail gambar dengan preview langsung setelah berhasil diupload via AJAX.
 
 ![Manage Projects](screenshots/Manage_Project_admin.jpeg)
 
-### 4.9 Admin — Manage Experiences
+### 4.10 Admin — Manage Experiences
 Halaman manajemen pengalaman menampilkan tabel seluruh riwayat kerja dan pendidikan dengan badge tipe (Work / Education / Certificate) dan badge Current untuk yang masih berlangsung. Modal tambah/edit dilengkapi date picker dan checkbox "Masih berlangsung". Semua operasi dilakukan via AJAX.
 
 ![Manage Experiences](screenshots/Manage_Experiences.jpeg)
