@@ -533,22 +533,27 @@ Contact section menampilkan link kontak yang diambil dinamis dari database melal
 
 ![Contact Portofolio](screenshots/Contact_portofolio.jpeg)
 
-### 4.7 Admin Dashboard
+### 4.7 Admin — Login
+Halaman login admin menggunakan desain dark minimal dengan tipografi Space Mono. Admin memasukkan email dan password untuk mengakses dashboard. Sistem menggunakan custom guard `admin` yang terpisah dari autentikasi default Laravel. Jika kredensial salah, muncul pesan error merah. Terdapat fitur Remember Me dan link kembali ke halaman portfolio.
+
+![Login Admin](screenshots/login_admin.jpeg)
+
+### 4.8 Admin Dashboard
 Halaman dashboard admin menampilkan 3 kartu statistik (Total Skills, Total Projects, Total Experiences), quick action buttons untuk navigasi cepat ke setiap halaman manajemen, dan tabel status 4 endpoint API beserta keterangannya.
 
 ![Dashboard Admin](screenshots/Dashboard_Admin.jpeg)
 
-### 4.8 Admin — Manage Skills
+### 4.9 Admin — Manage Skills
 Halaman manajemen skill menampilkan tabel data yang dikelompokkan per kategori dengan level bar visual. Terdapat modal tambah/edit yang dilengkapi range slider untuk mengatur level (0–100%), input icon class Devicon, dan input warna hex. Semua operasi CRUD (tambah, edit, hapus) dilakukan via AJAX tanpa reload halaman.
 
 ![Manage Skills](screenshots/Manage_skills.jpeg)
 
-### 4.9 Admin — Manage Projects
+### 4.10 Admin — Manage Projects
 Halaman manajemen project menampilkan tabel project dengan badge status berwarna. Modal tambah/edit dilengkapi field tech stack (dipisah koma), URL demo & GitHub, serta fitur upload thumbnail gambar dengan preview langsung setelah berhasil diupload via AJAX.
 
 ![Manage Projects](screenshots/Manage_Project_admin.jpeg)
 
-### 4.10 Admin — Manage Experiences
+### 4.11 Admin — Manage Experiences
 Halaman manajemen pengalaman menampilkan tabel seluruh riwayat kerja dan pendidikan dengan badge tipe (Work / Education / Certificate) dan badge Current untuk yang masih berlangsung. Modal tambah/edit dilengkapi date picker dan checkbox "Masih berlangsung". Semua operasi dilakukan via AJAX.
 
 ![Manage Experiences](screenshots/Manage_Experiences.jpeg)
