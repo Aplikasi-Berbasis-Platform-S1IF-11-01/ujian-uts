@@ -1,0 +1,8 @@
+<?php
+// app/Models/Skill.php
+namespace App\Models;
+use Illuminate\Database\Eloquent\Model;
+class Skill extends Model {
+    protected $fillable = ['name','category','description','level','order'];
+    protected $casts = ['level' => 'integer', 'order' => 'integer'];
+}
